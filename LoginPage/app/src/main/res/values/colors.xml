@@ -4,4 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="orange">#D84315</color>
     <color name="red">#C62828</color>
+    <color name="skyBlue">#1565C0</color>
+    <color name="grey">#546E7A</color>
+    <color name="fieldBackgroundColor">#DFE0E2</color>
 </resources>
