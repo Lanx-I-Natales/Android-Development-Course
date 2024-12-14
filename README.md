@@ -10,3 +10,5 @@ Thank You **@HiSkyTech** for all the assistance!
 * Repository creation and set-up.
 ### Day - 3
 * Added LoginPage, first fronted project with initial code.
+### Day - 4
+* Added few basic components of GUI in LoginPage project.
