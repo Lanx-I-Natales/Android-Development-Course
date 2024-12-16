@@ -11,4 +11,5 @@
     <string name="login_google">Login with Google</string>
     <string name="account_assurance">Don\'t have an Account?</string>
     <string name="signup">\tSignup</string>
+    <string name="welcome">Hi, Welcome Back</string>
 </resources>

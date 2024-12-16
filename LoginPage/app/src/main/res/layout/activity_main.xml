@@ -1,37 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:padding="20dp">
+    android:padding="40dp">
 
     <TextView
         android:id="@+id/headerTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="@string/welcome"
         android:textSize="28sp"
         android:textStyle="bold"
-        android:textColor="@color/orange"
-        android:layout_marginVertical="15dp"
-        android:layout_centerHorizontal="true"/>
+        android:textColor="@color/black"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="55dp"
+        android:layout_centerHorizontal="true"
+        app:drawableEndCompat="@drawable/hand_64" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/email"
         android:layout_below="@id/headerTitle"
-        android:layout_marginTop="-10dp"/>
+        android:layout_marginTop="-25dp"/>
 
     <EditText
         android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/headerTitle"
-        android:layout_marginTop="15dp"
         android:autofillHints="emailAddress"
         android:hint="@string/emailHint"
         android:inputType="textEmailAddress"
@@ -69,17 +71,17 @@
         android:layout_height="wrap_content"
         android:text="@string/forgot_password"
         android:textColor="@color/red"
-        android:layout_marginVertical="10dp"
+        android:layout_marginVertical="20dp"
         android:layout_below="@id/etPassword"
         android:layout_alignEnd="@id/etPassword"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login"
+        app:backgroundTint="#0D52BD"
         android:layout_below="@id/txtForgetPassword"
-        android:layout_marginHorizontal="25dp"
         android:background="@drawable/button_style"/>
 
     <LinearLayout
@@ -87,7 +89,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_below="@id/btnLogin"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="60dp"
         android:gravity="center">
 
         <View
@@ -110,25 +112,29 @@
 
     </LinearLayout>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnFacebook"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login_facebook"
         android:layout_below="@id/btnLogin"
-        android:layout_marginTop="35dp"
-        android:layout_marginHorizontal="25dp"
+        app:backgroundTint="@color/skyBlue"
+        android:layout_marginTop="100dp"
         android:background="@drawable/button_style"/>
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnGoogle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login_google"
         android:layout_below="@id/btnFacebook"
-        android:layout_marginHorizontal="25dp"
         android:layout_marginTop="10dp"
-        android:background="@drawable/button_style"/>
+        android:textColor="@color/grey"
+        app:backgroundTint="@color/white"
+        app:strokeColor="@color/grey"
+        app:strokeWidth="1dp"
+        app:cornerRadius="5dp"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -144,6 +150,7 @@
             android:text="@string/account_assurance"/>
 
         <TextView
+            android:id="@+id/txtSignup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/signup"
