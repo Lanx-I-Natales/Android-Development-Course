@@ -12,3 +12,6 @@ Thank You **@HiSkyTech** for all the assistance!
 * Added LoginPage, first fronted project with initial code.
 ### Day - 4
 * Added few basic components of GUI in LoginPage project.
+### Day - 5
+* Added a "Tasks" folder and first task image.
+* Updated the GUI according to the task.
