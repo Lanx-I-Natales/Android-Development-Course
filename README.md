@@ -15,3 +15,5 @@ Thank You **@HiSkyTech** for all the assistance!
 ### Day - 5
 * Added a "Tasks" folder and first task image.
 * Updated the GUI according to the task.
+### Day - 6, 7
+* Added SignupActivity with LoginPage data as a reference.
