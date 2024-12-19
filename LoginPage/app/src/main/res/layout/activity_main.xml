@@ -56,8 +56,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/etEmail"
         android:layout_marginTop="30dp"
-        android:autofillHints="emailAddress"
-        android:hint="@string/passwordHint"
+        android:autofillHints="password"
+        android:hint="@string/enter_your_password"
         android:inputType="textPassword"
         android:singleLine="true"
         android:textColorHint="@color/grey"
@@ -154,8 +154,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/signup"
+            android:paddingStart="5dp"
             android:textColor="@color/skyBlue"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
 
     </LinearLayout>
 
