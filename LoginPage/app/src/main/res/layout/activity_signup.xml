@@ -78,7 +78,9 @@
         android:singleLine="true"
         android:layout_marginTop="20dp"
         android:textColorHint="@color/grey"
-        android:background="@drawable/edit_text_style"/>
+        android:background="@drawable/edit_text_style"
+        android:drawableEnd="@drawable/eye_off"
+        android:drawablePadding="5dp"/>
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnSignup"
