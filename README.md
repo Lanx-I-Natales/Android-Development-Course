@@ -19,3 +19,5 @@ Thank You **@HiSkyTech** for all the assistance!
 * Added SignupActivity with LoginPage data as a reference.
 ### Day - 8
 * Modified the Signup and Login GUI according to the **Task - 1**
+### Day - 9
+* Finished **Task - 1** by making the remaining modifications
