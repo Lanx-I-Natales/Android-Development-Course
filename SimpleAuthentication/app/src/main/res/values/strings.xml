@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SimpleAuthentication</string>
+    <string name="login">Login</string>
+    <string name="enter_user">Enter Username...</string>
+    <string name="enter_password">Enter Password...</string>
+    <string name="logout">Exit Button</string>
+    <string name="logout_alert">Login Repetition Alert!</string>
+    <string name="assurance">Login attempts exceeded.\nDo you want to reset password?</string>
+    <string name="no">Login Again</string>
+    <string name="yes">Reset Password</string>
+    <string name="welcome">Welcome Developer</string>
+    <string name="reset">Reset</string>
+    <string name="confirm_password">Confirm Password...</string>
+    <string name="enter_new_password">Enter New Password...</string>
+    <string name="privacy_and_policy">Privacy and Policy</string>
+    <string name="terms">All the contents of the this text are private.\ncheck our terms and conditions for further instructions</string>
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+</resources>
