@@ -21,3 +21,7 @@ Thank You **@HiSkyTech** for all the assistance!
 * Modified the Signup and Login GUI according to the **Task - 1**
 ### Day - 9
 * Finished **Task - 1** by making the remaining modifications
+### Day - 10
+* Added **Task - 2** to the tasks folder.
+* Added SimpleAuthentication project in accordance with with **Task - 2**.
+* **TODO**: Need to deal with an issue whereby Custom Alert Dialogs are pushed in Width-Wise when shown.
