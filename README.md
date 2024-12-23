@@ -17,11 +17,12 @@ Thank You **@HiSkyTech** for all the assistance!
 * Added SignupActivity with LoginPage data as a reference.
 
 ### Week - 2
-* Modified the Signup and Login GUI according to the **Task - 1**
-* Finished **Task - 1** by making the remaining modifications
+* Modified the Signup and Login GUI according to the **Task - 1**.
+* Finished **Task - 1** by making the remaining modifications.
 * Added **Task - 2** to the tasks folder.
 * Added SimpleAuthentication project in accordance with with **Task - 2**.
-* Added SplashShare project which deals with Data Sharing between activities and Splash screen
+* Added SplashShare project which deals with Data Sharing between activities and Splash screen.
+* Modified and dealt with some issues relating SplashShare project.
 
 
 ## TODO
