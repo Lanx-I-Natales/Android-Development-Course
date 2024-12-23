@@ -17,7 +17,7 @@ class ActivitySplash : AppCompatActivity() {
         sharedPref = getSharedPreferences("SplashSharePref", Context.MODE_PRIVATE)
 
         val signup = sharedPref.getBoolean("sign", false)
-        val login = sharedPref.getBoolean("log", false)
+        val login = sharedPref.getBoolean("login", false)
 
         Handler(Looper.getMainLooper()).postDelayed({
             if (signup) {

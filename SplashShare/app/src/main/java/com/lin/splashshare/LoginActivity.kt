@@ -17,7 +17,7 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         sharedPreferences = getSharedPreferences("SplashSharePref", Context.MODE_PRIVATE)
-        val editor = sharedPreferences.edit()
+        var editor = sharedPreferences.edit()
 
         val email = sharedPreferences.getString("email", "")
         val password = sharedPreferences.getString("password", "")
