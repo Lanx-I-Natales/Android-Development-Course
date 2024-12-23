@@ -16,12 +16,11 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        sharedPreferences = getSharedPreferences("newProjectPref", Context.MODE_PRIVATE)
+        sharedPreferences = getSharedPreferences("SplashSharePref", Context.MODE_PRIVATE)
         val editor = sharedPreferences.edit()
 
-        val name = intent.getStringExtra("name")
-        val email = intent.getStringExtra("email")
-        val password = intent.getStringExtra("password")
+        val email = sharedPreferences.getString("email", "")
+        val password = sharedPreferences.getString("password", "")
 
         binding.apply {
             btnLogin.setOnClickListener {
@@ -36,10 +35,7 @@ class LoginActivity : AppCompatActivity() {
                             ).show()
                             editor.putBoolean("login", true)
                             editor.apply()
-                            val intent = Intent(this@LoginActivity, HomeActivity::class.java)
-                            intent.putExtra("name", name)
-                            intent.putExtra("email", email)
-                            startActivity(intent)
+                            startActivity(Intent(this@LoginActivity, HomeActivity::class.java))
                             finish()
                         } else {
                             Toast.makeText(

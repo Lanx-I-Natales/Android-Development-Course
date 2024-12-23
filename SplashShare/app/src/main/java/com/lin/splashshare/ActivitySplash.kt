@@ -14,7 +14,7 @@ class ActivitySplash : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
 
-        sharedPref = getSharedPreferences("newProjectPref", Context.MODE_PRIVATE)
+        sharedPref = getSharedPreferences("SplashSharePref", Context.MODE_PRIVATE)
 
         val signup = sharedPref.getBoolean("sign", false)
         val login = sharedPref.getBoolean("log", false)

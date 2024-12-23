@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        sharedPreferences = getSharedPreferences("newProjectPref", Context.MODE_PRIVATE)
+        sharedPreferences = getSharedPreferences("SplashSharePref", Context.MODE_PRIVATE)
         val editor = sharedPreferences.edit()
 
         binding.apply {
@@ -31,12 +31,12 @@ class MainActivity : AppCompatActivity() {
                         Toast.makeText(this@MainActivity, "Signup Successful!", Toast.LENGTH_SHORT)
                             .show()
                         editor.putBoolean("sign", true)
+                        editor.putString("name", name)
+                        editor.putString("email", email)
+                        editor.putString("password", password)
+                        editor.putBoolean("firstTime", true)
                         editor.apply()
-                        val intent = Intent(this@MainActivity, LoginActivity::class.java)
-                        intent.putExtra("name", name)
-                        intent.putExtra("email", email)
-                        intent.putExtra("password", password)
-                        startActivity(intent)
+                        startActivity(Intent(this@MainActivity, LoginActivity::class.java))
                         finish()
                     } else {
                         Toast.makeText(

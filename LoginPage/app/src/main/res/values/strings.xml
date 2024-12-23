@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">LoginPage</string>
     <string name="login">Login</string>
-    <string name="emailHint">johndoe@gmail.com</string>
+    <string name="emailHint">example@gmail.com</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="forgot_password">Forgot Password?</string>
@@ -16,7 +16,7 @@
     <string name="signup_with_google">Signup with Google</string>
     <string name="enter_your_email">Enter Your Email</string>
     <string name="enter_your_password">Enter Your Password</string>
-    <string name="enter_your_phone">Enter Your Phone</string>
+    <string name="enter_your_phone">Enter Your Phone Number</string>
     <string name="enter_your_username">Enter Your Username</string>
     <string name="create_an_account">Create an Account</string>
     <string name="connect_with_your_friends_today">Connect with your friends today!</string>
